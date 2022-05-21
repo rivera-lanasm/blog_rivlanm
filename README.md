@@ -1,20 +1,12 @@
 
-### Blog with Gatsby 
-
-
 ### ==============================
+### Site Layout (add navbar)
+- home
+    - current blog about
+- posts
+- experience
+- cv
 
-[Uset/Style with React](https://www.gatsbyjs.com/docs/tutorial/part-2/)
-- There are two main types of components in a Gatsby site. 
-    - page components contains all the UI elements for a specific page of your site.
-    - 
-
-**Writing new react component**
-- 
-
-
-[Gatsby and Plotly](https://janosh.dev/blog/gatsby-interactive-plots)
-- 
 
 ### ==============================
 ### MDX
@@ -24,14 +16,24 @@
 - 
 
 ### ==============================
-### Run Docker image
+### Run Docker image and Gatsby Blog locally
 - `docker run -it -v $(pwd):/opt/application gatsby_blog /bin/bash`
+- `cd rivlanmn`
+- `npm install `
+    - [note that node_modules is in gitignore](https://www.reddit.com/r/webdev/comments/jag5f9/starting_out_with_gatsby_some_concerns_about_node/)
+
 - deploy locally on Docker, `gatsby develop -H 0.0.0.0`
 
 
-[Directory Structure](https://github.com/gatsbyjs/gatsby-starter-blog)
-- 
 
+
+
+[Directory Structure](https://github.com/gatsbyjs/gatsby-starter-blog)
+- gatsby new rivlanm https://github.com/gatsbyjs/gatsby-starter-blog
+- cd rivlanm   
+- gatsby develop
+- http://localhost:8000
+- http://localhost:8000/___graphql
 
 
 
